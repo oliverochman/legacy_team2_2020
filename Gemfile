@@ -16,10 +16,13 @@ gem 'sass-rails', '~> 5.0'
 gem 'turbolinks'
 gem 'uglifier', '>= 1.3.0'
 
-group :development, :test do
+group :development do
   gem 'pry-byebug'
   gem 'spring'
   gem 'web-console', '~> 2.0'
+end 
+
+group :development, :test do 
   gem 'rspec-rails'
   gem 'shoulda-matchers'
   gem 'factory_bot_rails'
@@ -35,4 +38,3 @@ end
 gem 'loofah', '~> 2.2.1'
 gem 'rails-html-sanitizer', '~> 1.0.4'
 gem 'sprockets', '~> 3.7.2'
-
