@@ -10,7 +10,7 @@ feature 'User can login' do
 
     it 'expect to success message' do
       fill_in 'Email', with: registered_user.email
-      fill_in 'Password', with: 'password1234'
+      fill_in 'Password', with: registered_user.password
       click_on 'Log in'
       expect(page).to have_content 'Signed in successfully.'
     end
