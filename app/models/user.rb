@@ -9,7 +9,6 @@ class User < ApplicationRecord
          validates :name, presence: true
          validates :email, presence: true
          validates :encrypted_password, presence: true
-        #  validates_uniqueness_of :name
 
   acts_as_messageable
 

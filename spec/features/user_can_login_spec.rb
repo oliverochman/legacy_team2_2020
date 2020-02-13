@@ -33,8 +33,4 @@ feature 'User can login' do
             expect(page).to have_content 'Invalid Email or password'
         end  
     end    
-
 end
-
-
-
