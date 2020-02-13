@@ -27,6 +27,7 @@ group :development, :test do
   gem 'factory_bot_rails'
   gem 'capybara' 
   gem 'coveralls', require: false
+  gem 'launchy'
 end
 
 group :production do
