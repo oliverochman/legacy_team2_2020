@@ -16,16 +16,16 @@ gem 'turbolinks'
 gem 'uglifier', '>= 1.3.0'
 
 group :development do
-  gem 'pry-byebug'
+  gem 'pry-rails'
   gem 'spring'
   gem 'web-console', '~> 2.0'
-end 
+end
 
-group :development, :test do 
+group :development, :test do
   gem 'rspec-rails'
   gem 'shoulda-matchers'
   gem 'factory_bot_rails'
-  gem 'capybara' 
+  gem 'capybara'
   gem 'coveralls', require: false
   gem 'launchy'
 end
