@@ -24,4 +24,4 @@ feature 'User can reset password' do
               expect(page).to have_content 'Email not found'
           end
       end    
-  end
+end

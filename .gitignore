@@ -5,6 +5,7 @@ coverage/
 !/log/.keep
 /tmp
 .byebug_history
+
 .DS_Store
 
 # Ruby Mine files
