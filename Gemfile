@@ -2,7 +2,6 @@ source 'https://rubygems.org'
 ruby '2.4.3'
 
 gem 'rails', '5.1.5'
-
 gem 'bootstrap-sass'
 gem 'chosen-rails'
 gem 'devise'
@@ -17,9 +16,18 @@ gem 'turbolinks'
 gem 'uglifier', '>= 1.3.0'
 
 group :development do
-  gem 'pry-byebug'
+  gem 'pry-rails'
   gem 'spring'
   gem 'web-console', '~> 2.0'
+end
+
+group :development, :test do
+  gem 'rspec-rails'
+  gem 'shoulda-matchers'
+  gem 'factory_bot_rails'
+  gem 'capybara'
+  gem 'coveralls', require: false
+  gem 'launchy'
 end
 
 group :production do
@@ -30,4 +38,3 @@ end
 gem 'loofah', '~> 2.2.1'
 gem 'rails-html-sanitizer', '~> 1.0.4'
 gem 'sprockets', '~> 3.7.2'
-
