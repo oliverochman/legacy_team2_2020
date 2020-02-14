@@ -21,5 +21,5 @@ feature 'User can reset password' do
             click_on 'Send me reset password instructions'
             expect(page).to have_content 'Email not found'
           end
-      end    
+    end    
 end
